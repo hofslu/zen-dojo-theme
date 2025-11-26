@@ -1,0 +1,26 @@
+{
+  "name": "my-earthy-theme",
+  "displayName": "My Earthy Theme",
+  "description": "A custom earthy style light and dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zen Dojo Light",
+        "uiTheme": "vs",
+        "path": "./themes/my-earthy-light.json"
+      },
+      {
+        "label": "Zen Dojo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-earthy-dark.json"
+      }
+    ]
+  }
+}
