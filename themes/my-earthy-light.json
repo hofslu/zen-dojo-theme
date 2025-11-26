@@ -31,7 +31,16 @@
       "fontStyle": "bold"
     },
     "property": {
+      "foreground": "#A0754C"
+    },
+    "parameter": {
       "foreground": "#3D2817"
+    },
+    "parameter.label": {
+      "foreground": "#A0754C"
+    },
+    "string.key": {
+      "foreground": "#A0754C"
     },
     "variable": {
       "foreground": "#3D2817"
@@ -187,6 +196,20 @@
       "scope": ["string", "string.quoted"],
       "settings": {
         "foreground": "#5D7349"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key",
+        "string.unquoted.label",
+        "entity.name.tag.yaml",
+        "support.type.property-name",
+        "meta.structure.dictionary.key.python",
+        "string.quoted.single.python meta.structure.dictionary.key.python",
+        "meta.structure.dictionary.key string"
+      ],
+      "settings": {
+        "foreground": "#A0754C"
       }
     },
     {

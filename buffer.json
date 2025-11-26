@@ -1,0 +1,8 @@
+[
+  {
+    "scope": ["string", "string.quoted"],
+    "settings": {
+      "foreground": "#5D7349"
+    }
+  }
+]
