@@ -299,22 +299,56 @@
       }
     },
     {
+      "scope": ["markup.heading.1"],
+      "settings": {
+        "foreground": "#3D2817",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.heading.2"],
+      "settings": {
+        "foreground": "#5D7349",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": ["markup.bold"],
       "settings": {
-        "foreground": "#6B5335",
+        "foreground": "#8B4726",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["markup.italic"],
       "settings": {
+        "foreground": "#6B5335",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.inline.raw", "markup.fenced_code"],
+      "settings": {
+        "foreground": "#2B4A6F"
+      }
+    },
+    {
+      "scope": ["markup.list.unnumbered", "markup.list.numbered"],
+      "settings": {
+        "foreground": "#5D7349"
       }
     },
     {
       "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "#5D7349"
+      }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#7A6A58",
+        "fontStyle": "italic"
       }
     },
     {

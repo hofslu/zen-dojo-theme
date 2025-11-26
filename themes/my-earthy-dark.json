@@ -286,27 +286,61 @@
     {
       "scope": ["markup.heading", "entity.name.section"],
       "settings": {
-        "foreground": "#C4B59F",
+        "foreground": "#E8DFD1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.heading.1"],
+      "settings": {
+        "foreground": "#F5F2E6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.heading.2"],
+      "settings": {
+        "foreground": "#8FAA7A",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["markup.bold"],
       "settings": {
-        "foreground": "#D4C8B4",
+        "foreground": "#E88469",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["markup.italic"],
       "settings": {
+        "foreground": "#D4C8B4",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.inline.raw", "markup.fenced_code"],
+      "settings": {
+        "foreground": "#7A9BC4"
+      }
+    },
+    {
+      "scope": ["markup.list.unnumbered", "markup.list.numbered"],
+      "settings": {
+        "foreground": "#8FAA7A"
       }
     },
     {
       "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "#8FAA7A"
+      }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#B5A693",
+        "fontStyle": "italic"
       }
     },
     {

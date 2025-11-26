@@ -32,10 +32,27 @@ A custom VS Code theme inspired by traditional Japanese house interiors—tatami
 
 ## Installation
 
-1. Open this folder in VS Code.
-2. Press `F5` to launch the Extension Development Host.
-3. In the new window, go to **File > Preferences > Color Theme** (or `Cmd+K Cmd+T`).
-4. Select "Zen Dojo Light" or "Zen Dojo Dark".
+### For Development
+1. Clone this repository
+2. Run `npm run deploy` to package and install the theme
+3. Reload VSCode (Cmd+Shift+P → "Developer: Reload Window")
+4. Select "Zen Dojo Light" or "Zen Dojo Dark" from Color Theme picker (Cmd+K Cmd+T)
+
+### For Testing
+1. Open this folder in VS Code
+2. Press `F5` to launch the Extension Development Host
+3. In the new window, select the theme from Color Theme picker
+
+## Development
+
+### Making Changes
+1. Edit colors in `themes/my-earthy-light.json` or `themes/my-earthy-dark.json`
+2. Run `npm run deploy` to package and install the updated theme
+3. Reload VSCode to see your changes
+
+### Scripts
+- `npm run package` - Package the extension as a .vsix file
+- `npm run deploy` - Package and install the theme in your VSCode
 
 ## Customization
 
