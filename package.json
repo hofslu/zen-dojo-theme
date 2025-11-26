@@ -1,14 +1,23 @@
 {
   "name": "my-earthy-theme",
-  "displayName": "My Earthy Theme",
-  "description": "A custom earthy style light and dark theme",
+  "displayName": "Zen Dojo Theme",
+  "description": "A VSCode theme inspired by traditional Japanese zen gardens",
   "version": "0.0.1",
+  "publisher": "hofslu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hofslu/zen-dojo-theme.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "deploy": "vsce package --no-yarn && code --install-extension my-earthy-theme-0.0.1.vsix --force"
+  },
   "contributes": {
     "themes": [
       {
